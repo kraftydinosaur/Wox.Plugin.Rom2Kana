@@ -21,7 +21,7 @@ class Main(Wox):
         return results
 
     def copy(self, text):
-        clipboard.put(romkan.to_hiragana(text))
+        clipboard.copy(romkan.to_hiragana(text))
 
 
 if __name__ == "__main__":
